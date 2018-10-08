@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Deploy') {
             steps {
-                git clone "ssh://git@mywebsite.com/myrepo.git"
+                git 'https://github.com/selvan123/petclinic.git'
                 }
             }
         }
